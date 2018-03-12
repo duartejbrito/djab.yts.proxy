@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "djab.yts.proxy", "djab.yts.proxy\djab.yts.proxy.csproj", "{13A7F41E-7C7C-4821-90FB-741D734F356E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FDF82B42-B30A-4FB0-A40D-3D107A324333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13A7F41E-7C7C-4821-90FB-741D734F356E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A7F41E-7C7C-4821-90FB-741D734F356E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A7F41E-7C7C-4821-90FB-741D734F356E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A7F41E-7C7C-4821-90FB-741D734F356E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF82B42-B30A-4FB0-A40D-3D107A324333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF82B42-B30A-4FB0-A40D-3D107A324333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF82B42-B30A-4FB0-A40D-3D107A324333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF82B42-B30A-4FB0-A40D-3D107A324333}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18A7D58B-40A2-4D63-BEF1-756D0F064742}
+	EndGlobalSection
+EndGlobal

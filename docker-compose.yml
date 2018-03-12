@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  djab.yts.proxy:
+    image: djab.yts.proxy
+    build:
+      context: .
+      dockerfile: djab.yts.proxy/Dockerfile
